@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Testimonials - Mergington High School</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Mergington High School</h1>
+      <h2>Testimonials</h2>
+    </header>
+
+    <main>
+      <section id="testimonials-list-section">
+        <h3>What students say</h3>
+        <div id="testimonials-list">
+          <p>Loading testimonials...</p>
+        </div>
+      </section>
+
+      <section id="testimonial-form-section">
+        <h3>Share your experience</h3>
+        <form id="testimonial-form">
+          <div class="form-group">
+            <label for="author">Your name</label>
+            <input id="author" required placeholder="Your name" />
+          </div>
+          <div class="form-group">
+            <label for="text">Message</label>
+            <textarea id="text" rows="4" required placeholder="Tell others about the event"></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+        <div id="testimonial-message" class="hidden"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Mergington High School</p>
+    </footer>
+
+    <script src="testimonials.js"></script>
+  </body>
+</html>
